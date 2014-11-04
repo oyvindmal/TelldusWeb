@@ -1,11 +1,23 @@
 TelldusWeb
-==========
+=========
+
+Web.py wrapper for Telldus
 
 
-== Endpoints:
-/on?id=xx
-/off?id=xx
+Endpoints
+---------
 
+These are the planned endpoints for v.0.1
 
-TODO: 
-* Implenme
+* /on?id=xx
+* /off?id=xx
+* /list?show=[Sensors/Devices]
+* /list
+* 
+
+ToDo
+----
+
+* Implement dimming
+* Implement querying for sensorvalues by sensor ID
+
